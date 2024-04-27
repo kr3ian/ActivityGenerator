@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images6.alphacoders.com/132/1327974.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.activityType {
+    margin-top: 5%;
+}
+
+.activityGenerator {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 7%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1rem;
+    background: var(--white);
+    padding: 3rem;
+    height: 60%;
+    width: 70%;
+    border: 1px solid #000000;
+    max-width: 40rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3%;
+    margin: 0 auto; 
+    margin-bottom: 5%;
+}
+
+.title {
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.activityTypeChoice {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.filter-choices {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.activityTypeChoice {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.radioContainerActivityType {
+    margin-right: 35px;
+}
+
+.radioContainerNumber {
+    margin-right: 159px;
+    white-space: nowrap;
+}
+
+.radioContainerBudget {
+    margin-right: 222px;
+    white-space: nowrap;
+}
+
+.generateBtn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding: 10px 20px;
+    display: block;
+    font-size: 25px;
+    border-radius: 5%;
+    border: 1;
+    background-color: #ffffff;
+}
+
+#taskData {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(154, 255, 154);
+    color: #000000;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    opacity: 0;
+}
+
