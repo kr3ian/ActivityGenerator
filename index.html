@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section class="activityGenerator">
+        <section class="header">
+            <h1>Activity Generator</h1>
+        </section>
+
+        <section class="filters">
+            <div class="title">
+                <h2>Filter Box</h2>
+            </div>
+
+            <section class="activityType">
+                <h3>Type of Activity:</h3>
+                <div class="filter-choices">
+                    <div class="radioContainerActivityType">
+                        <input type="radio" class="radioEducation" name="activityType" id="EducRadio">
+                        <label for="EducRadio">Education</label>
+                    </div>
+                    <div class="radioContainerActivityType">
+                        <input type="radio" class="radioRecreational" name="activityType" id="RecreationalRadio">
+                        <label for="RecreationalRadio">Recreational</label>
+                    </div>
+                    <div class="radioContainerActivityType">
+                        <input type="radio" class="radioSocial" name="activityType" id="SocialRadio">
+                        <label for="SocialRadio">Social</label>
+                    </div>
+                    <div class="radioContainerActivityType">
+                        <input type="radio" class="radioBusywork" name="activityType" id="BusyworkRadio">
+                        <label for="BusyworkRadio">Busy Work</label>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+
+            <section class="budget">
+                <h3>Spend money?</h3>
+                <div class="filter-choices">
+                    <div class="radioContainerBudget">
+                        <input type="radio" class="radioBudget" name="budget" id="BudgetRadio">
+                        <label for="BudgetRadio">Yes</label>
+                    </div>
+                    <div class="radioContainerBudget">
+                        <input type="radio" class="radioFree" name="budget" id="FreeRadio">
+                        <label for="FreeRadio">Can't afford</label>
+                    </div>
+                </div>
+            </section>
+        </section>
+   
+
+    <button class="generateBtn" id="btnGenerate">Generate</button>
+</section>
+
+    <div id="taskData"></div>
+</body>
+
+<script src="script.js"></script>
+
+<html>
